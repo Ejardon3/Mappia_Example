@@ -116,7 +116,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:1_4_3__popc___1_4_3_popc</Layers>
+				<Layers>GH:1_4_3__popc___1_4_3_popc_ent</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -126,7 +126,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:1_4_3__popc___1_4_3_popc</Layers>
+				<Layers>GH:1_4_3__popc___1_4_3_popc_ent</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:1_4_3__popc___1_4_3_popc_ent</Layers>
+				<Layers>GH:1_4_3__popc___1_4_3_popc</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,32 +146,12 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:1_4_3__popc___1_4_3_popc_ent</Layers>
+				<Layers>GH:1_4_3__popc___1_4_3_popc</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
-			<Layer queryable="1" opaque="0">
-				<Name>GH:1_4_3__popc___1_4_3_popc</Name>
-				<Title>1_4_3__popc___1_4_3_popc</Title>
-				<Abstract>GH:1_4_3__popc___1_4_3_popc ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-118.365114352283" miny="14.5320983697655" maxx="-86.7104052798835" maxy="32.7186535703897"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-118.365114352283" miny="14.5320983697655" maxx="-86.7104052798835" maxy="32.7186535703897"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=1_4_3__popc___1_4_3_popc"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
 			<Layer queryable="1" opaque="0">
 				<Name>GH:1_4_3__popc___1_4_3_popc_ent</Name>
 				<Title>1_4_3__popc___1_4_3_popc_ent</Title>
@@ -189,6 +169,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=1_4_3__popc___1_4_3_popc_ent"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:1_4_3__popc___1_4_3_popc</Name>
+				<Title>1_4_3__popc___1_4_3_popc</Title>
+				<Abstract>GH:1_4_3__popc___1_4_3_popc ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-118.365114352283" miny="14.5320983697655" maxx="-86.7104052798835" maxy="32.7186535703897"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-118.365114352283" miny="14.5320983697655" maxx="-86.7104052798835" maxy="32.7186535703897"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=1_4_3__popc___1_4_3_popc"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
